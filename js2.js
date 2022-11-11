@@ -34,7 +34,6 @@ var $btnligar =document.getElementById("ligar")
 $btnligar.addEventListener("click",ligar)
 
 function ligar (){
-    if()
     ligado = 1
     desligado = 0
 }
