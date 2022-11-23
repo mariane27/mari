@@ -17,38 +17,40 @@ $timeB.innerHTML = localStorage.getItem("inpRival")
 $voltar.addEventListener("click",voltarMenu)
 
 function voltarMenu(){
-    location.href =  "home.html"
+    location.href =  "index.html"
 }
-
 var $c1 = document.getElementById("c1")
 var $c2 = document.getElementById("c2")
-var $c3 = document.getElementById("c3")
 var $c4 = document.getElementById("c4")
+var $c5 = document.getElementById("c5")
 var c1 = 0
 var c2 = 0
-var c3 = 0
 var c4 = 0
+var c5 = 0
 var ligado = 0
-var $btnligar =document.getElementById("ligar")
+var $btnLigar = document.getElementById("btnLigar")
+var $btnDesligar = document.getElementById("btnDesligar")
 
-$btnligar.addEventListener("click",ligar)
+$btnLigar.addEventListener("click",ligar)
+$btnDesligar.addEventListener("click",desligar)
 
-function ligar (){
-    ligado = 1
-    desligado = 0
+function ligar(){
+	ligado = 1
 }
-
+function desligar(){
+	ligado = 0
+}
 setInterval(contador,1000)
 
 function contador(){
 	if(ligado == 1){
-		c4++
-		if(c4 >= 10){
-			c4 = 0
-			c3++
+		c5++
+		if(c5 >= 10){
+			c5 = 0
+			c4++
 		}
-		if(c3 >= 6){
-			c3 = 0
+		if(c4 >= 6){
+			c4 = 0
 			c2++
 		}
 		if(c2 >= 10){
@@ -56,8 +58,10 @@ function contador(){
 			c1++
 		}
 	}
-    c4.innerHTML = c4
-	$c3.innerHTML = c3
+	
+	$c5.innerHTML = c5
+	$c4.innerHTML = c4
 	$c2.innerHTML = c2
 	$c1.innerHTML = c1
 }
+

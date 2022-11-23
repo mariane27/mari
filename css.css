@@ -76,6 +76,7 @@
     background-color: rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
 }
 #dois{
     position:absolute;
@@ -84,6 +85,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #tres{
     position:absolute;
@@ -92,6 +94,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #quatro{
     position:absolute;
@@ -100,6 +103,7 @@
     background-color:rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
 }
 #cinco{
     position:absolute;
@@ -108,6 +112,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #seis{
     position:absolute;
@@ -116,6 +121,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #sete{
     position:absolute;
@@ -124,6 +130,7 @@
     background-color: rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
 }
 
 
@@ -134,6 +141,7 @@
     background-color: rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
 }
 #dois1{
     position:absolute;
@@ -142,6 +150,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #tres1{
     position:absolute;
@@ -150,6 +159,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #quatro1{
     position:absolute;
@@ -158,6 +168,7 @@
     background-color: rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
 }
 
 #cinco1{
@@ -167,6 +178,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #seis1{
     position:absolute;
@@ -175,6 +187,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 
 #sete1{
@@ -184,6 +197,7 @@
     background-color: rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
 }
 
 #um2{
@@ -193,6 +207,7 @@
     background-color: rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
 }
 #dois2{
     position:absolute;
@@ -201,6 +216,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #tres2{
     position:absolute;
@@ -209,6 +225,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #quatro2{
     position:absolute;
@@ -217,6 +234,7 @@
     background-color: rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
 }
 #cinco2{
     position:absolute;
@@ -225,6 +243,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #seis2{
     position:absolute;
@@ -233,6 +252,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #sete2{
     position:absolute;
@@ -241,6 +261,7 @@
     background-color: rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
 }
 
 #um3{
@@ -250,6 +271,7 @@
     background-color: rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
 }
 #dois3{
     position:absolute;
@@ -258,6 +280,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #tres3{
     position:absolute;
@@ -266,6 +289,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #quatro3{
     position:absolute;
@@ -274,6 +298,7 @@
     background-color: rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
 }
 #cinco3{
     position:absolute;
@@ -282,6 +307,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #seis3{
     position:absolute;
@@ -290,6 +316,7 @@
     background-color: rgb(208, 85, 208);
     height: 45px;
     width: 6px;
+    visibility: visible;
 }
 #sete3{
     position:absolute;
@@ -298,4 +325,40 @@
     background-color: rgb(222, 159, 65);
     height: 6px;
     width: 45px;
+    visibility: visible;
+}
+#c1{
+    font-size: 75px;
+    left: 21%;
+    color: blue;
+    position: absolute;
+    top: 57%
+}
+#c2{
+    font-size: 75px;
+    left: 24%;
+    color: blue;
+    position: absolute;
+    top: 57%
+}
+#c3{
+    font-size: 75px;
+    left:27.2%;
+    color: rgb(255, 0, 238);
+    position: absolute;
+    top: 55.9%;
+}
+#c4{
+    font-size: 75px;
+    left: 29%;
+    color: blue;
+    position: absolute;
+    top: 57%
+}
+#c5{
+    font-size: 75px;
+    left: 32%;
+    color: rgb(0, 255, 38);
+    position: absolute;
+    top: 57%
 }
